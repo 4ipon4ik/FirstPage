@@ -1,3 +1,70 @@
 body{
-background-image:url(Bildes/wood.jpg)
+	background-image:url(Bildes/hex.jpg)
+}
+a{
+	text-decoration: none;
+}
+p{
+	margin: 0px;
+}
+td{
+	text-align: left;
+}
+img{
+    max-width: 30%;
+}
+table{
+	margin: 0px auto;
+	background-color: #20d04c;
+}
+div{
+	margin-right: 40px;
+	margin-left: 40px;
+}
+.headerx{
+	text-align: center;
+}
+.header0{
+	background-color: indianred;
+	font-size: 15pt;
+}
+.header1{
+	background-color: purple;
+	font-size: 20pt;
+}
+.header2{
+	text-align: center;
+	background-color: red;
+	font-size: 25pt;
+}
+.header2 span{
+	margin-right: 30px;
+	padding-left: 5px;
+	padding-right: 5px;
+	border-style: solid;
+	border-radius: 20px;
+	border-color: red green blue;
+}
+.main{
+	background-color: blue;
+	text-align: center;
+	font-size: 15pt;
+}
+#a{
+	background-color: green;
+}
+#b{
+	background-color: yellow;
+}
+#c{
+	background-color: magenta;
+}
+#d{
+	background-color: mediumspringgreen;
+}
+#pogas{
+	text-align: center;
+}
+#kontakti{
+	font-size: 14pt;
 }
