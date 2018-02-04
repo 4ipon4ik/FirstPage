@@ -2,29 +2,43 @@ html,body,.main,.left,.center,.right{
 	height: 100%;
 }
 body{
-	background-image:url(Bildes/hex.jpg);
+	background-image: linear-gradient(red,yellow,green,violet);
+	background-repeat: round;
 	font-family: 'Handlee', cursive;
 }
 a{
 	text-decoration: none;
 }
-img{
+.center img{
     max-width: 30%;
 }
 div{
 	margin-right: 40px;
 	margin-left: 40px;
 }
+.logo,.navigation{
+	width: 1807px;
+	border-radius: 20px;
+	margin-top: 40px;
+	border-style: solid;
+	border-color: grey;
+	background-color: #f1d29c;
+}
+.left,.center,.right{
+	border-style: solid;
+	border-color: grey;
+	border-radius: 20px;
+}
 .logo{
-	padding: 30px 0px 0px 0px;
-	text-align: center;
+}
+.logoimage{
+	margin:0px 0px 0px 0px;
+	background-image: linear-gradient(blue,violet);
+	width: 50%;
 }
 .navigation{
 	text-align: center;
-	background-color: red;
 	padding: 10px 0px 10px 0px;
-	margin-top: 25px;
-	margin-bottom: 25px;
 }
 .navigation span{
 	font-size: 20pt;
@@ -39,10 +53,12 @@ div{
 	padding: 3px 7px 3px 7px;
 }
 .main{
-	background-color: blue;
 	font-size: 15pt;
 	text-align: center;
 	width: 1807px;
+	border-radius: 20px;
+	margin-top: 40px;
+	padding-bottom: 50px;
 }
 .main img:hover{
 	max-width: 31%;
@@ -50,37 +66,42 @@ div{
 .copyright{
 	font-size: 12pt;
 	text-align: center;
-	background-color: green;
+	margin-bottom: 40px;
+	width: 1807px;
 }
-#a{
-	background-color: aqua;
-}
-#b{
-	background-color: yellow;
-}
-#c{
-	background-color: magenta;
-}
-#d{
-	background-color: mediumspringgreen;
+#a,#b,#c,#d{
+	background-color: grey;
 }
 .left{
-	width: 403px;
+	width: 360px;
 	float: left;
 	background-color: orange;
-	margin:0px auto;
+	margin:0px 20px 0px 0px;
+	padding: 50px 0px 0px 0px;
+}
+.news{
+	height: 20%;
+	background-color: magenta;
+	margin-bottom: 10px;
 }
 .center{
-	width: 1001px;
+	width: 880px;
 	float: left;
-	margin:0px auto;
-	padding-top: 30px;
+	margin:0px 20px 0px 20px;
+	padding: 50px 50px 0px 50px;
+	background-color: #f1d29c;
 }
 .right{
-	width: 403px;
+	width: 360px;
 	float: left;
 	background-color: orange;
-	margin:0px auto;
+	margin:0px 0px 0px 20px;
+	padding: 50px 0px 0px 0px;
+}
+.ad{
+	height: 30%;
+	background-color: magenta;
+	margin-bottom: 10px;
 }
 #intro{
 	text-align: left;
