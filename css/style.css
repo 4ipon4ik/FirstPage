@@ -1,0 +1,164 @@
+html,body,.main,.left,.center,.right{
+	height: 100%;
+}
+body{
+	background-image: url(../images/hex.jpg);
+    background-attachment: fixed;
+	font-family: 'Handlee', cursive;
+	text-align: center;
+	font-size: 17pt;
+}
+a{
+	color:black;
+}
+ul{
+	padding:0;
+}
+.navigation a{
+	text-decoration: none;
+}
+div,table{
+	margin: auto;
+}
+iframe{
+    max-width: 100%;
+}
+.center img{
+    max-width: 30%;
+}
+.logo,.navigation,.left,.center,.right,.copyright{
+	border-style: solid;
+	border-color: black;
+	border-radius: 20px;
+}
+.logo,.navigation,.main,.copyright{
+	width: 97%;
+	margin-top:1%;
+}
+.navigation,.copyright{
+	background-color: #333333;
+}
+.left,.center,.right{
+	background-image: linear-gradient(#333333,#00AD00,#333333);
+	box-sizing: border-box;
+}
+.logo{
+	background-image: linear-gradient(#00AD00,#333333);
+}
+.logoimage{
+	margin-top:30px;
+	margin-bottom: 30px;
+}
+.logoimage img{
+	max-width: 100%;
+}
+.navigation{
+	position: sticky;
+	top:0;
+}
+.navigation ul{
+	margin-top: 12px;
+	margin-bottom: 12px;
+}
+.navigation ul>li{
+	display: inline;
+	list-style-type: none;
+	font-size: 20pt;
+	border-style: solid;
+	border-radius: 15px;
+	border-color: grey;
+	padding-left: 7px;
+	padding-right: 7px;
+	margin-left: 2.1%;
+	margin-right: 2.1%;
+	background-color: #CC0000;
+}
+.navigation ul>li:hover{
+	background-color: #D94040;
+}
+.main{
+	height: 180%;
+}/*
+.main img:hover{
+	max-width: 31%;
+}*/
+.copyright{
+	font-size: 12pt;
+}/*
+#a,#b,#c,#d,#e{
+	background-color: #CC0000;
+}
+#a:hover,#b:hover,#c:hover,#d:hover,#e:hover{
+	background-color: #D94040;
+}*/
+.left{
+	padding-top: 4%;
+	width: 19%;
+	float: left;
+	margin-right:1%;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+.left li{
+	list-style-type: none;
+	font-size: 20pt;
+	margin-bottom: 10px;
+
+}
+.news{
+	height: 15%;
+	background-color: grey;
+	margin-bottom: 10px;
+	box-sizing: border-box;
+}
+.center{
+	padding-top: 4%;
+	width: 58%;
+	float: left;
+	margin-left:1%;
+	margin-right:1%;
+	padding-left: 3%;
+	padding-right: 3%;
+}
+.right{
+	padding-top: 4%;
+	width: 19%;
+	float: left;
+	margin-left:1%;
+	padding-left: 2%;
+	padding-right: 2%;
+}
+.ad{
+	height: 15%;
+	background-color: grey;
+	margin-bottom: 10px;
+	box-sizing: border-box;
+}
+#SkypeButton_Call_spider3691_1{
+	background-color: brown;
+}
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .navigation ul>li{
+		display: list-item;
+    }
+    .navigation{
+		position: initial;
+		top:initial;
+	}
+	.left,.center,.right{
+		width: 100%;
+		font-size: 12pt;
+	}
+	.center{
+	}
+	.left,.right{
+		height: 600px;
+	}
+	.news{
+		height: 20%;
+	}
+	.ad{
+		height: 25%;
+	}
+}
