@@ -11,39 +11,34 @@ img{
 .main img:hover{
 	max-width: 31%;
 }
-div{
-	margin-right: 40px;
-	margin-left: 40px;
-}
 .logo{
-	padding: 30px 0px 0px 0px;
+	padding-top: 30px;
 	text-align: center;
 }
 .izvelne{
 	text-align: center;
 	background-color: red;
-	padding: 10px 0px 10px 0px;
-	margin-top: 25px;
-	margin-bottom: 25px;
+	padding:10px 0px 10px 0px;
+	margin: 20px 0px 25px 0px;
 }
 .izvelne span{
 	font-size: 20pt;
-	margin: 0px 30px 0px 30px;
+	margin-right: 30px;
+	margin-left: 30px;
 	border-style: dashed;
 	border-radius: 15px;
 	border-color: indianred green blue;
-	padding: 0px 7px 0px 7px;
 }
 .izvelne span:hover{
-	font-weight: bold;
-	padding: 3px 7px 3px 7px;
+	padding-top: 3px;
+	padding-bottom: 3px;
 }
 .main{
 	background-color: blue;
 	font-size: 15pt;
-	padding: 18px;
-	padding-top: 36px;
 	text-align: center;
+	width: 1200px;
+	height: 1400px;
 }
 .copyright{
 	font-size: 12pt;
@@ -64,10 +59,25 @@ div{
 #kontakti{
 	font-size: 14pt;
 }
+#left{
+	float:left;
+	width: 300px;
+	background-color: green;
+	height: 100%;
+}
+#right{
+	float:left;
+	width: 300px;
+	background-color: green;
+	height: 100%;
+}
 #sakums{
 	text-align: left;
 	padding-left: 50px;
 	padding-right: 50px;
+	width: 500px;
+	float:left;
+	height: inherit;
 }
 #SkypeButton_Call_spider3691_1{
 	background-color: brown;
